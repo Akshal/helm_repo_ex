@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  dummychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-22T14:12:32.192416+05:30"
+    dependencies:
+    - name: mariadb
+      repository: '@bitnami2'
+      version: ~7.5.0
+    description: A Dummy Helm chart for Kubernetes
+    digest: f10bb19f1252615f0cbb1a5eabf977400336f9c2bb1bc6ff0705e54839347f37
+    name: dummychart
+    type: application
+    urls:
+    - https://akshal.github.io/helm_repo_ex/dummychart-0.1.0.tgz
+    version: 0.1.0
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-22T14:12:32.192862+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 994d8d00b7d8080095ac6e12db4924d051f991e8a2193c47894bfbfe7425899d
+    name: mychart
+    type: application
+    urls:
+    - https://akshal.github.io/helm_repo_ex/mychart-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-06-22T14:12:32.189596+05:30"
